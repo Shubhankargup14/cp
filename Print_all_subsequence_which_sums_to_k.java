@@ -5,7 +5,7 @@ class ksum {
         int n=arr.length;
         int i=0,s=0;
         List<Integer>list=new ArrayList<>();
-        s(i,n,s,list,arr,2);
+        subs(i,n,s,list,arr,2);
     }
     static void subs(int i,int n,int s,List<Integer>list,int arr[],int sum){
         
